@@ -4,7 +4,6 @@ if ARGV.length < 1
     puts "Adj meg egy file-t!"
     abort()
 end
-#pn = Pathname.new(ARGV[0])
 if ! (File.exist? File.expand_path ARGV[0])
     puts "Nincs ilyen file!"
     abort()
